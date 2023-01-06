@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Tests.userRegiterationTest">
+        <methods>
+          <include name="UserRegisterSuccessfully"/>
+          <include name="StopDriver"/>
+          <include name="startDriver"/>
+          <include name="UserNotRegisterInvalidPass"/>
+          <include name="EmptyFields"/>
+          <include name="UserNotRegisterSuccessfully"/>
+        </methods>
+      </class> <!-- Tests.userRegiterationTest -->
+      <class name="Tests.SearchTest">
+        <methods>
+          <include name="StopDriver"/>
+          <include name="SearchForProduct"/>
+          <include name="startDriver"/>
+        </methods>
+      </class> <!-- Tests.SearchTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
